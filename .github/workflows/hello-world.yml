@@ -1,0 +1,11 @@
+name: Authoring workflows
+
+on: [push]
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Welcome message
+      run: echo 'Hello, world'
+
